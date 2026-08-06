@@ -6,7 +6,7 @@ Simple Python script that generates a SHA-256 hash from user input using Python'
 - String encoding
 - SHA-256 hashing
 - Cybersecurity fundamentals
-- 
+
 # Output
 Enter Message: rafay
 
