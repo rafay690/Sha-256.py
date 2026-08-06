@@ -1,5 +1,5 @@
 # Python Cybersecurity Basics
-A collection of beginner Python projects demonstrating basic cybersecurity concepts using Python's built-in `hashlib` library.
+A collection of Python scripts developed during my cybersecurity studies. These projects demonstrate fundamental cybersecurity concepts including hashing, password security, and basic cryptographic operations.
 
 ## Projects
 
@@ -57,4 +57,5 @@ These projects helped me understand:
 - Password storage concepts
 
 ## Note
-These are educational projects created for learning purposes. Real-world password storage systems typically use specialized password hashing algorithms such as bcrypt, Argon2, or PBKDF2 rather than plain SHA-256.
+Real-world password storage systems typically use specialized password hashing algorithms such as bcrypt, Argon2, or PBKDF2 rather than plain SHA-256.I built these scripts to practice hashing for university coursework
+
