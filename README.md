@@ -1,17 +1,60 @@
-# SHA-256 Hash Generator
-Simple Python script that generates a SHA-256 hash from user input using Python's hashlib library.
+# Python Cybersecurity Basics
+A collection of beginner Python projects demonstrating basic cybersecurity concepts using Python's built-in `hashlib` library.
 
-# Concepts:
+## Projects
+
+### 1. SHA-256 Hash Generator
+Generates a SHA-256 hash from user-provided text.
+
+#### Code Concepts
 - Python input/output
 - String encoding
-- SHA-256 hashing
-- Cybersecurity fundamentals
+- Cryptographic hashing
+- SHA-256
+- hashlib module
 
-## Example Output
-
+#### Example Output
 ```text
-Enter Message: rafay
+Enter Message: hello
 
 SHA-256 Hash:
-b8f32250cb44857dfa197677bfce8a1c58dc1e699fd8cdd6fb2edf46e55d49d6
+2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
 ```
+
+---
+
+### 2. Password Hashing Example
+Demonstrates how a password can be converted into a SHA-256 hash before storage.
+
+#### Code Concepts
+- Password hashing
+- Cybersecurity fundamentals
+- String encoding
+- SHA-256
+- hashlib module
+
+#### Example Output
+```text
+Enter Password: qwerty
+
+Stored Password Hash:
+65e84be33532fb784c48129675f9eff3a682b27168c0ea744b2cf58ee02337c5
+```
+
+---
+
+## Technologies Used
+- Python
+- hashlib
+
+## Learning Outcome
+These projects helped me understand:
+
+- How cryptographic hashing works
+- How SHA-256 generates unique hash values
+- The role of hashing in cybersecurity
+- Basic Python programming concepts
+- Password storage concepts
+
+## Note
+These are educational projects created for learning purposes. Real-world password storage systems typically use specialized password hashing algorithms such as bcrypt, Argon2, or PBKDF2 rather than plain SHA-256.
