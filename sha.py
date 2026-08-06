@@ -1,10 +1,10 @@
 import hashlib
 # Asking user to enter msg
 message = input("Enter Message: ")
-# converts text to byte for sha256 as it only take bytes
+#Convert the message into bytes because SHA-256 works with bytes
 encoded_message = message.encode()
-# Generating hash/converting it to hexadecimal strig
+# Generating hash/converting it to hexadecimal format
 hash_value = hashlib.sha256(encoded_message).hexdigest()
-# hash printing
+# display Hash
 print("SHA-256 Hash:")
 print(hash_value)
