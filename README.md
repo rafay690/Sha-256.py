@@ -12,7 +12,8 @@ Generates a SHA-256 hash from user-provided text.
 - Cryptographic hashing
 - SHA-256
 - hashlib module
-
+  
+<img src="./Sha.png" alt="SHA-256 Hash Generator" width="700">
 #### Example Output
 ```text
 Enter Message: hello
@@ -33,6 +34,7 @@ Demonstrates how a password can be converted into a SHA-256 hash before storage.
 - SHA-256
 - hashlib module
 
+<img src="./pass.png" alt="Password Hashing Example" width="700">
 #### Example Output
 ```text
 Enter Password: qwerty
